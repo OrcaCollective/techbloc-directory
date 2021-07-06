@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: helvetica, arial, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+    color: #ff0080;
+}
+
+.container {
+    width: 30em;
+    margin: auto;
+    text-align: center;
+    padding: 0 1em;
+}
+
+@media (max-width: 33em) {
+    .container {
+        width: 95%;
+    }
+}
+
+a {
+    border: 3px solid cyan;
+    padding: 1em;
+    background-color: pink;
+    color: black;
+    font-weight: 600;
+    width: 100%;
+    margin: auto;
+    display: block;
+    text-decoration: none;
+    transition: background-color 0.1s ease;
+    margin-bottom: 1em;
+}
+
+a:hover {
+    background-color: hotpink;
+    transition: background-color 0.1s ease;
+}
+
+a:active {
+    background-color: pink;
+    transition: background-color 0.1s ease;
+}
