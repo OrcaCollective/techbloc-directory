@@ -47,3 +47,9 @@ a:active {
     background-color: pink;
     transition: background-color 0.1s ease;
 }
+
+@media (prefers-reduced-motion) {
+    a {
+        transition: none !important;
+    }
+}
