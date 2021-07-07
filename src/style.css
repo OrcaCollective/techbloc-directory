@@ -12,10 +12,9 @@ h1 {
 }
 
 .container {
-    width: 30em;
     margin: auto;
+    width: 30em;
     text-align: center;
-    padding: 0 1em;
 }
 
 @media (max-width: 33em) {
@@ -30,8 +29,6 @@ a {
     background-color: pink;
     color: black;
     font-weight: 600;
-    width: 100%;
-    margin: auto;
     display: block;
     text-decoration: none;
     transition: background-color 0.1s ease;
@@ -52,4 +49,18 @@ a:active {
     a {
         transition: none !important;
     }
+}
+
+a > p {
+    margin: 0;
+}
+
+a > p:not(.subtitle) {
+    font-size: 1.25em;
+    margin-bottom: 0;
+}
+
+.subtitle {
+    font-weight: 300;
+    font-size: 0.75em;
 }
