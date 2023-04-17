@@ -43,3 +43,7 @@
 - name: "github-actions"
   color: "#1D76DB"
   description: GitHub Action dependency changes
+
+- name: "dependency"
+  color: "#BFD4F2"
+  description: Dependency upgrades
