@@ -9,7 +9,6 @@ group:
           OrcaCollective/techbloc-directory
           OrcaCollective/spd-data-watch
           OrcaCollective/spd-lookup
-          OrcaCollective/radio-chaser
       files:
           - source: templates/dependabot.yml.jinja2
             dest: .github/dependabot.yml
@@ -19,6 +18,7 @@ group:
 
     - repos: |
           OrcaCollective/OpenOversight
+          OrcaCollective/radio-chaser
       files:
           - source: templates/dependabot.yml.jinja2
             dest: .github/dependabot.yml
