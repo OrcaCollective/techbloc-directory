@@ -1,3 +1,4 @@
+# Project labels
 - name: "project: data publicity"
   color: "#E000AC"
   description: Related to sharing the data used for our applications publicly
@@ -25,3 +26,20 @@
 - name: "project: OO enhancements"
   color: "#E000AC"
   description: Related to new enhancements to OpenOversight
+
+# Dependency labels
+- name: "pip"
+  color: "#C2E0C6"
+  description: Python dependency changes
+
+- name: "npm"
+  color: "#4F4888"
+  description: Node.js dependency changes
+
+- name: "docker/env"
+  color: "#006B75"
+  description: Docker, environment, or CI changes
+
+- name: "github-actions"
+  color: "#1D76DB"
+  description: GitHub Action dependency changes

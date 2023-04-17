@@ -1,0 +1,37 @@
+---
+version: 2
+updates:
+    {% if python | default(false) %}
+    - package-ecosystem: "pip"
+      directory: "/"
+      schedule:
+          interval: "monthly"
+      labels:
+          - "dependency"
+          - "pip"
+    {% endif %}
+    {% if docker | default(false) %}
+    - package-ecosystem: "docker"
+      directory: "/"
+      schedule:
+          interval: "monthly"
+      labels:
+          - "dependency"
+          - "docker/env"
+    {% endif %}
+    {% if npm | default(false) %}
+    - package-ecosystem: "npm"
+      directory: "/"
+      schedule:
+          interval: "monthly"
+      labels:
+          - "dependency"
+          - "npm"
+    {% endif %}
+    - package-ecosystem: "github-actions"
+      directory: "/"
+      schedule:
+          interval: "monthly"
+      labels:
+          - "dependency"
+          - "github-actions"
