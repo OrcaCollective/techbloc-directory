@@ -1,0 +1,27 @@
+- name: "project: data publicity"
+  color: "#E000AC"
+  description: Related to sharing the data used for our applications publicly
+
+- name: "project: ETL"
+  color: "#E000AC"
+  description: Related to setting up/maintaining ETL for projects
+
+- name: "project: maintenance"
+  color: "#E000AC"
+  description: Related to regular maintenance for our projects
+
+- name: "project: mastodon"
+  color: "#E000AC"
+  description: Related to moving projects from Twitter to Mastodon
+
+- name: "project: new departments"
+  color: "#E000AC"
+  description: Related to adding data for new departments
+
+- name: "project: new services"
+  color: "#E000AC"
+  description: Related to spinning up new services
+
+- name: "project: OO enhancements"
+  color: "#E000AC"
+  description: Related to new enhancements to OpenOversight
