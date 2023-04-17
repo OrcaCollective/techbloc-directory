@@ -1,0 +1,36 @@
+# Configuration file for the action `BetaHuhn/repo-file-sync-action`
+# Docs: https://github.com/BetaHuhn/repo-file-sync-action
+# Workflow: Meta file sync
+
+group:
+    - repos: |
+          OrcaCollective/1-312-hows-my-driving
+          OrcaCollective/techbloc-airflow
+          OrcaCollective/techbloc-directory
+          OrcaCollective/spd-data-watch
+          OrcaCollective/spd-lookup
+          OrcaCollective/radio-chaser
+      files:
+          - source: templates/dependabot.yml.jinja2
+            target: .github/dependabot.yml
+            template:
+                python: true
+                docker: true
+
+    - repos: |
+          OrcaCollective/OpenOversight
+      files:
+          - source: templates/dependabot.yml.jinja2
+            target: .github/dependabot.yml
+            template:
+                python: true
+                docker: true
+                npm: true
+
+    - repos: |
+          OrcaCollective/techbloc-directory
+      files:
+          - source: templates/dependabot.yml.jinja2
+            target: .github/dependabot.yml
+            template: true
+
