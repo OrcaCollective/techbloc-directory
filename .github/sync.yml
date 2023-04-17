@@ -6,7 +6,6 @@ group:
     - repos: |
           OrcaCollective/1-312-hows-my-driving
           OrcaCollective/techbloc-airflow
-          OrcaCollective/techbloc-directory
           OrcaCollective/spd-data-watch
           OrcaCollective/spd-lookup
       files:
