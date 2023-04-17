@@ -12,7 +12,7 @@ group:
           OrcaCollective/radio-chaser
       files:
           - source: templates/dependabot.yml.jinja2
-            target: .github/dependabot.yml
+            dest: .github/dependabot.yml
             template:
                 python: true
                 docker: true
@@ -21,7 +21,7 @@ group:
           OrcaCollective/OpenOversight
       files:
           - source: templates/dependabot.yml.jinja2
-            target: .github/dependabot.yml
+            dest: .github/dependabot.yml
             template:
                 python: true
                 docker: true
@@ -31,6 +31,6 @@ group:
           OrcaCollective/techbloc-directory
       files:
           - source: templates/dependabot.yml.jinja2
-            target: .github/dependabot.yml
+            dest: .github/dependabot.yml
             template: true
 
